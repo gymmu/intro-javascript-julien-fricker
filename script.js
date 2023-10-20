@@ -29,7 +29,10 @@ function deleteText() {
     numberElement.textContent = 0 }
 
   function writeText() {
-
+const inputElem = document.querySelector("#input")
+const outputElem = document.querySelector("#output")
+const outText= outputElem.textContent
+outputElem.textContent = outText + "\n" + inputElem.value 
 
   }
   
