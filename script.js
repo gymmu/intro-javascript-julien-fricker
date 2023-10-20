@@ -36,3 +36,8 @@ outputElem.textContent = outText + "\n" + inputElem.value
 
   }
   
+  function clickBackground() {
+
+
+    
+  }
